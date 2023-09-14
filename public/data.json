@@ -1,65 +1,74 @@
 [
   {
-    "course_img": "https://i.ibb.co/31nMySg/Rectangle-2.png",
-    "name": "Python for Beginners",
-    "credit": 3,
-    "price": 50,
-    "details": "Learn the fundamentals of Python programming, including variables, data types, and control structures. Perfect for beginners!"
-  },
-  {
-    "course_img": "https://i.ibb.co/s2pkJBM/Rectangle-2-1.png",
-    "name": "JavaScript Web Development",
-    "credit": 4,
-    "price": 80,
-    "details": "Master JavaScript and build interactive websites. Covers DOM manipulation, AJAX, and ES6 features."
-  },
-  {
-    "course_img": "https://i.ibb.co/Z1z2ftJ/Rectangle-2-5.png",
-    "name": "Java Programming Masterclass",
-    "credit": 5,
-    "price": 100,
-    "details": "Become a Java expert with hands-on projects. Includes OOP, data structures, and advanced topics."
-  },
-  {
-    "course_img": "https://i.ibb.co/hs81tWG/Rectangle-2-4.png",
-    "name": "C# Game Development",
-    "credit": 6,
-    "price": 130,
-    "details": "Create games with C# and Unity. Learn game physics, AI, and multiplayer development."
-  },
-  {
-    "course_img": "https://i.ibb.co/ry9B2zv/Rectangle-2-6.png",
-    "name": "React.js Fundamentals",
-    "credit": 3,
-    "price": 60,
-    "details": "Build dynamic web applications with React.js. Covers components, state management, and routing."
-  },
-  {
-    "course_img": "https://i.ibb.co/thtMwRh/Rectangle-3.png",
-    "name": "Data Science with Python",
-    "credit": 4,
-    "price": 90,
-    "details": "Analyze data and make predictions with Python. Includes Pandas, Matplotlib, and Scikit-Learn."
-  },
-  {
+    "id": 1,
     "course_img": "https://i.ibb.co/mGKsZCz/Rectangle-2-2.png",
-    "name": "iOS App Development with Swift",
-    "credit": 5,
-    "price": 110,
-    "details": "Create iOS apps using Swift. Covers UI design, Core Data, and app deployment."
+    "name": "C Programming Fundamentals",
+    "credit": 2,
+    "price": 39,
+    "details": "Start your programming journey with C. Learn syntax, variables, loops, and basic data structures in this foundational course."
   },
   {
-    "course_img": "https://i.ibb.co/qx9VPhk/Rectangle-3-1.png",
-    "name": "Full Stack Web Development",
-    "credit": 7,
-    "price": 160,
-    "details": "Become a full stack developer with HTML, CSS, JavaScript, Node.js, and MongoDB. Build real-world projects."
-  },
-  {
+    "id": 2,
     "course_img": "https://i.ibb.co/cXWTH9r/Rectangle-2-3.png",
-    "name": "Machine Learning Fundamentals",
+    "name": "Introduction to Algorithms",
     "credit": 4,
-    "price": 95,
-    "details": "Introduction to machine learning algorithms and models. Hands-on experience with Python and TensorFlow."
+    "price": 79,
+    "details": "Explore the fascinating world of algorithms. Dive into sorting, searching, and algorithm analysis with real-world applications."
+  },
+  {
+    "id": 3,
+    "course_img": "https://i.ibb.co/hs81tWG/Rectangle-2-4.png",
+    "name": "Learn C++ for DSA",
+    "credit": 3,
+    "price": 59,
+    "details": "Unlock the power of C++ for Data Structures and Algorithms. Master classes, templates, pointers, and efficient coding."
+  },
+  {
+    "id": 4,
+    "course_img": "https://i.ibb.co/thtMwRh/Rectangle-3.png",
+    "name": "Basic Data Structures",
+    "credit": 3,
+    "price": 49,
+    "details": "Build a solid foundation in data structures: arrays, linked lists, stacks, and queues. Solve real-world problems with confidence."
+  },
+  {
+    "id": 5,
+    "course_img": "https://i.ibb.co/31nMySg/Rectangle-2.png",
+    "name": "Introduction to OOP Python",
+    "credit": 2,
+    "price": 35,
+    "details": "Discover the elegance of Object-Oriented Programming in Python. Explore classes, inheritance, polymorphism, and practical applications."
+  },
+  {
+    "id": 6,
+    "course_img": "https://i.ibb.co/Z1z2ftJ/Rectangle-2-5.png",
+    "name": "Software Engineering",
+    "credit": 5,
+    "price": 99,
+    "details": "Take a deep dive into software engineering. Learn development processes, project management, and best practices for successful projects."
+  },
+  {
+    "id": 7,
+    "course_img": "https://i.ibb.co/qx9VPhk/Rectangle-3-1.png",
+    "name": "AWS, Cloud Computing",
+    "credit": 4,
+    "price": 89,
+    "details": "Become a cloud computing expert with AWS. Deploy, manage, and scale applications in the cloud, and boost your career."
+  },
+  {
+    "id": 8,
+    "course_img": "https://i.ibb.co/s2pkJBM/Rectangle-2-1.png",
+    "name": "Explore Databases (MySQL)",
+    "credit": 3,
+    "price": 69,
+    "details": "Master MySQL database management. Learn to create, query, and optimize databases, and handle data like a pro."
+  },
+  {
+    "id": 9,
+    "course_img": "https://i.ibb.co/ry9B2zv/Rectangle-2-6.png",
+    "name": "Art of Problem-Solving",
+    "credit": 2,
+    "price": 29,
+    "details": "Sharpen your problem-solving skills. Conquer algorithmic challenges, coding puzzles, and boost your coding confidence."
   }
 ]
