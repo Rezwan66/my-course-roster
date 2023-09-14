@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 
-const Card = ({ card }) => {
+const Card = ({ card, handleSelectCourse }) => {
   //   console.log(card);
   const { course_img, credit, details, name, price } = card;
   return (
-    <div className="card bg-base-100 shadow-xl px-6">
+    <div className="card bg-base-100 shadow-xl">
       <figure className="pt-10">
         <img src={course_img} alt="Course Image" className="rounded-lg" />
       </figure>
-      <div className="card-body items-center space-y-2">
+      <div className="card-body items-center space-y-4">
         <h2 className="card-title min-w-full">{name}</h2>
         <p>{details}</p>
         <div className="flex justify-between items-center min-w-full">
@@ -61,7 +61,10 @@ const Card = ({ card }) => {
           </div>
         </div>
         <div className="card-actions min-w-full">
-          <button className="btn btn-primary min-w-full capitalize text-white">
+          <button
+            onClick={() => handleSelectCourse(card)}
+            className="btn btn-primary min-w-full capitalize text-white"
+          >
             Select
           </button>
         </div>
@@ -72,6 +75,7 @@ const Card = ({ card }) => {
 
 Card.propTypes = {
   card: PropTypes.object.isRequired,
+  handleSelectCourse: PropTypes.func.isRequired,
 };
 
 export default Card;
