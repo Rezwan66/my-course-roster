@@ -14,7 +14,7 @@ const Home = () => {
     <div>
       <div className="flex">
         {/* cards container */}
-        <div>
+        <div className="grid grid-cols-3 gap-6">
           {courses.map(card => (
             <Card key={card.id} card={card}></Card>
           ))}

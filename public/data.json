@@ -2,9 +2,9 @@
   {
     "id": 1,
     "course_img": "https://i.ibb.co/mGKsZCz/Rectangle-2-2.png",
-    "name": "C Programming Fundamentals",
+    "name": "C Programming Fundamental",
     "credit": 2,
-    "price": 39,
+    "price": 39.59,
     "details": "Start your programming journey with C. Learn syntax, variables, loops, and basic data structures in this foundational course."
   },
   {
@@ -12,7 +12,7 @@
     "course_img": "https://i.ibb.co/cXWTH9r/Rectangle-2-3.png",
     "name": "Introduction to Algorithms",
     "credit": 4,
-    "price": 79,
+    "price": 79.99,
     "details": "Explore the fascinating world of algorithms. Dive into sorting, searching, and algorithm analysis with real-world applications."
   },
   {
@@ -20,7 +20,7 @@
     "course_img": "https://i.ibb.co/hs81tWG/Rectangle-2-4.png",
     "name": "Learn C++ for DSA",
     "credit": 3,
-    "price": 59,
+    "price": 59.69,
     "details": "Unlock the power of C++ for Data Structures and Algorithms. Master classes, templates, pointers, and efficient coding."
   },
   {
@@ -28,7 +28,7 @@
     "course_img": "https://i.ibb.co/thtMwRh/Rectangle-3.png",
     "name": "Basic Data Structures",
     "credit": 3,
-    "price": 49,
+    "price": 49.99,
     "details": "Build a solid foundation in data structures: arrays, linked lists, stacks, and queues. Solve real-world problems with confidence."
   },
   {
@@ -36,7 +36,7 @@
     "course_img": "https://i.ibb.co/31nMySg/Rectangle-2.png",
     "name": "Introduction to OOP Python",
     "credit": 2,
-    "price": 35,
+    "price": 35.55,
     "details": "Discover the elegance of Object-Oriented Programming in Python. Explore classes, inheritance, polymorphism, and practical applications."
   },
   {
@@ -44,7 +44,7 @@
     "course_img": "https://i.ibb.co/Z1z2ftJ/Rectangle-2-5.png",
     "name": "Software Engineering",
     "credit": 5,
-    "price": 99,
+    "price": 99.99,
     "details": "Take a deep dive into software engineering. Learn development processes, project management, and best practices for successful projects."
   },
   {
@@ -52,7 +52,7 @@
     "course_img": "https://i.ibb.co/qx9VPhk/Rectangle-3-1.png",
     "name": "AWS, Cloud Computing",
     "credit": 4,
-    "price": 89,
+    "price": 89.99,
     "details": "Become a cloud computing expert with AWS. Deploy, manage, and scale applications in the cloud, and boost your career."
   },
   {
@@ -60,7 +60,7 @@
     "course_img": "https://i.ibb.co/s2pkJBM/Rectangle-2-1.png",
     "name": "Explore Databases (MySQL)",
     "credit": 3,
-    "price": 69,
+    "price": 69.99,
     "details": "Master MySQL database management. Learn to create, query, and optimize databases, and handle data like a pro."
   },
   {
@@ -68,7 +68,7 @@
     "course_img": "https://i.ibb.co/ry9B2zv/Rectangle-2-6.png",
     "name": "Art of Problem-Solving",
     "credit": 2,
-    "price": 29,
+    "price": 29.99,
     "details": "Sharpen your problem-solving skills. Conquer algorithmic challenges, coding puzzles, and boost your coding confidence."
   }
 ]
