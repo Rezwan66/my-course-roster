@@ -1,8 +1,7 @@
-# React + Vite
+# My Course Roster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Project Features
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Loads a single page application (SPA) with several programming-related courses, which can be added to the basket.
+- The basket of products shows the names of the courses selected, but you can pick a specific course only once! If you try to pick the same course again, it will show an error message.
+- There is a fixed credit hour selection limit of 20 hours in total, and you cannot exceed that limit! It will show an error message if you try to select more than 20 credits worth of courses.
