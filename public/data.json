@@ -1,0 +1,65 @@
+[
+  {
+    "course_img": "https://i.ibb.co/31nMySg/Rectangle-2.png",
+    "name": "Python for Beginners",
+    "credit": 3,
+    "price": 50,
+    "details": "Learn the fundamentals of Python programming, including variables, data types, and control structures. Perfect for beginners!"
+  },
+  {
+    "course_img": "https://i.ibb.co/s2pkJBM/Rectangle-2-1.png",
+    "name": "JavaScript Web Development",
+    "credit": 4,
+    "price": 80,
+    "details": "Master JavaScript and build interactive websites. Covers DOM manipulation, AJAX, and ES6 features."
+  },
+  {
+    "course_img": "https://i.ibb.co/Z1z2ftJ/Rectangle-2-5.png",
+    "name": "Java Programming Masterclass",
+    "credit": 5,
+    "price": 100,
+    "details": "Become a Java expert with hands-on projects. Includes OOP, data structures, and advanced topics."
+  },
+  {
+    "course_img": "https://i.ibb.co/hs81tWG/Rectangle-2-4.png",
+    "name": "C# Game Development",
+    "credit": 6,
+    "price": 130,
+    "details": "Create games with C# and Unity. Learn game physics, AI, and multiplayer development."
+  },
+  {
+    "course_img": "https://i.ibb.co/ry9B2zv/Rectangle-2-6.png",
+    "name": "React.js Fundamentals",
+    "credit": 3,
+    "price": 60,
+    "details": "Build dynamic web applications with React.js. Covers components, state management, and routing."
+  },
+  {
+    "course_img": "https://i.ibb.co/thtMwRh/Rectangle-3.png",
+    "name": "Data Science with Python",
+    "credit": 4,
+    "price": 90,
+    "details": "Analyze data and make predictions with Python. Includes Pandas, Matplotlib, and Scikit-Learn."
+  },
+  {
+    "course_img": "https://i.ibb.co/mGKsZCz/Rectangle-2-2.png",
+    "name": "iOS App Development with Swift",
+    "credit": 5,
+    "price": 110,
+    "details": "Create iOS apps using Swift. Covers UI design, Core Data, and app deployment."
+  },
+  {
+    "course_img": "https://i.ibb.co/qx9VPhk/Rectangle-3-1.png",
+    "name": "Full Stack Web Development",
+    "credit": 7,
+    "price": 160,
+    "details": "Become a full stack developer with HTML, CSS, JavaScript, Node.js, and MongoDB. Build real-world projects."
+  },
+  {
+    "course_img": "https://i.ibb.co/cXWTH9r/Rectangle-2-3.png",
+    "name": "Machine Learning Fundamentals",
+    "credit": 4,
+    "price": 95,
+    "details": "Introduction to machine learning algorithms and models. Hands-on experience with Python and TensorFlow."
+  }
+]
