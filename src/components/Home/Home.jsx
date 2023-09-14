@@ -1,11 +1,16 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Card from '../Card/Card';
 import Basket from '../Basket/Basket';
 
 const Home = () => {
   const [courses, setCourses] = useState([]);
   const [selectedCourses, setSelectedCourses] = useState([]);
+  const [remaining, setRemaining] = useState(20);
+  const [totalHour, setTotalHour] = useState(0);
+
   useEffect(() => {
     fetch('data.json')
       .then(res => res.json())
@@ -16,14 +21,40 @@ const Home = () => {
   const handleSelectCourse = card => {
     const isClicked = selectedCourses.find(sel => sel.id === card.id);
     if (isClicked) {
-      return alert('Cant select again');
+      return toast.error('ERROR! You cannot pick a course several times!', {
+        position: 'top-right',
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: 'light',
+      });
     }
+    let count = card.credit;
+    const newTotalHour = totalHour + count;
+    const newRemaining = 20 - newTotalHour;
+    if (newTotalHour > 20) {
+      return toast.error('ERROR! Total credit hours exceeded 20!', {
+        position: 'top-right',
+        autoClose: 2000,
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: 'colored',
+      });
+    }
+    setRemaining(newRemaining);
+    setTotalHour(newTotalHour);
     setSelectedCourses([...selectedCourses, card]);
   };
 
   return (
     <div>
-      <div className="flex  gap-8">
+      <div className="flex gap-8">
         {/* cards container */}
         <div className="grid grid-cols-3 gap-6">
           {courses.map(card => (
@@ -36,9 +67,14 @@ const Home = () => {
         </div>
         {/* basket container */}
         <div className="min-w-[320px]">
-          <Basket selectedCourses={selectedCourses}></Basket>
+          <Basket
+            selectedCourses={selectedCourses}
+            remaining={remaining}
+            totalHour={totalHour}
+          ></Basket>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
