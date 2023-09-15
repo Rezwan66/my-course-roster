@@ -8,10 +8,11 @@
 
 ### How different states are managed
 
-- **useState() :** The react useState() hook is used to keep track of four different elements in this project
-  -- The data fetched from the dataset is stored in the `courses` variable as an array to display the course detail cards.
-  -- The courses selected by clicking the select button are stored in the `selectedCourses` variable as the array to show the selected course names.
-  -- The remaining credit hours is stored in the `remaining` variable with an initial value of 20.
-  -- The total credit hours selected is stored in the `totalHour` variable with an initial value of 0.
+- **useState() :** The react useState() hook is used to keep track of four different elements in this project:
+
+  - The data fetched from the dataset is stored in the `courses` variable as an array to display the course detail cards.
+  - The courses selected by clicking the select button are stored in the `selectedCourses` variable as the array to show the selected course names.
+  - The remaining credit hours is stored in the `remaining` variable with an initial value of 20.
+  - The total credit hours selected is stored in the `totalHour` variable with an initial value of 0.
 
 - **useEffect() :** The useEffect() hook is essentially used to deal with the side-effect of loading the data from the public folder using the fetch function, with no dependencies i.e. the data loads only when the browser loads.

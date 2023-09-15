@@ -21,7 +21,7 @@ const Home = () => {
   const handleSelectCourse = card => {
     const isClicked = selectedCourses.find(sel => sel.id === card.id);
     if (isClicked) {
-      return toast.error('ERROR! You cannot pick a course several times!', {
+      return toast.error('You have already selected this course!', {
         position: 'top-right',
         autoClose: 2000,
         hideProgressBar: true,
@@ -36,7 +36,7 @@ const Home = () => {
     const newTotalHour = totalHour + count;
     const newRemaining = 20 - newTotalHour;
     if (newTotalHour > 20) {
-      return toast.error('ERROR! Total credit hours exceeded 20!', {
+      return toast.error('Sorry! Cannot take more than 20 credit hours!', {
         position: 'top-right',
         autoClose: 2000,
         hideProgressBar: true,

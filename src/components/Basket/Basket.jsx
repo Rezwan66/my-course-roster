@@ -8,7 +8,7 @@ const Basket = ({ selectedCourses, remaining, totalHour }) => {
       </h3>
       <hr />
       <h2 className="text-xl font-bold">Course Name</h2>
-      <ol className="list-decimal px-5 text-[#1C1B1B99]">
+      <ol className="list-decimal px-5 text-[#1C1B1B99] space-y-2">
         {selectedCourses.map((item, idx) => (
           <li key={idx}>{item.name}</li>
         ))}

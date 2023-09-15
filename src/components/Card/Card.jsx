@@ -37,7 +37,7 @@ const Card = ({ card, handleSelectCourse }) => {
                 />
               </svg>
             </div>
-            <div>Price : {price}</div>
+            <div className="ml-1">Price : {price}</div>
           </div>
           <div className="flex items-center">
             <div>
@@ -57,13 +57,13 @@ const Card = ({ card, handleSelectCourse }) => {
                 />
               </svg>
             </div>
-            <div className="text-right">Credit : {credit}hr</div>
+            <div className="text-right ml-2">Credit : {credit}hr</div>
           </div>
         </div>
         <div className="card-actions min-w-full">
           <button
             onClick={() => handleSelectCourse(card)}
-            className="btn btn-primary min-w-full capitalize text-white"
+            className="btn btn-primary bg-[#2F80ED] min-w-full capitalize text-white"
           >
             Select
           </button>
