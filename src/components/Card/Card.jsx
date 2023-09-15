@@ -63,7 +63,7 @@ const Card = ({ card, handleSelectCourse }) => {
         <div className="card-actions min-w-full">
           <button
             onClick={() => handleSelectCourse(card)}
-            className="btn btn-primary bg-[#2F80ED] min-w-full capitalize text-white"
+            className="btn btn-primary min-w-full capitalize text-white"
           >
             Select
           </button>
