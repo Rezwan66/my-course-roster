@@ -16,3 +16,5 @@
   - The total credit hours selected is stored in the `totalHour` variable with an initial value of 0.
 
 - **useEffect() :** The useEffect() hook is essentially used to deal with the side-effect of loading the data from the public folder using the fetch function, with no dependencies i.e. the data loads only when the browser loads.
+
+[Live Link](https://legendary-gingersnap-10220d.netlify.app/) : https://legendary-gingersnap-10220d.netlify.app/
